@@ -1,0 +1,26 @@
+PODS:
+  - CombineGestures (0.1.0)
+  - CombineNSObject (0.1.0)
+
+DEPENDENCIES:
+  - CombineGestures (from `../`)
+  - CombineNSObject (from `https://github.com/duc-ios/CombineNSObject.git`)
+
+EXTERNAL SOURCES:
+  CombineGestures:
+    :path: "../"
+  CombineNSObject:
+    :git: https://github.com/duc-ios/CombineNSObject.git
+
+CHECKOUT OPTIONS:
+  CombineNSObject:
+    :commit: ac00a9854d6388446ccdcab8fc9390d7f7e17b9d
+    :git: https://github.com/duc-ios/CombineNSObject.git
+
+SPEC CHECKSUMS:
+  CombineGestures: 92f679e708e170e59811718b685311d1e1c688f8
+  CombineNSObject: 2cd96c3c6fbfec20563d3c139bd089a6a150aea7
+
+PODFILE CHECKSUM: 7dc880c1b6f89363c59f2b17674f46cc004d9a8c
+
+COCOAPODS: 1.10.1

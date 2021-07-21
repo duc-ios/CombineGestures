@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04372A4149A5AA6C3F80F9D3B783D347 /* Pods-CombineGestures_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887876CD8055AA4C981B424DCBD799EE /* Pods-CombineGestures_Example-dummy.m */; };
+		076733ACF66B1FB972AFF622D05F449C /* Gestures+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057F5D2907D2E5EEC4E439D8FFB37BCE /* Gestures+Combine.swift */; };
+		30C6038B45FCFCC6539DF31D9FFDF285 /* Pods-CombineGestures_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F939F1C1BEF21D1538714E4BEC4AD7D5 /* Pods-CombineGestures_Tests-dummy.m */; };
+		6A6A36AF5315AF19B617BEB06EFDB64F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F23971F7B3837D2369DE117874368CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		74CCF98BDA7515B43390F5426F72ABA5 /* Pods-CombineGestures_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD42AE0CC9D7C62FD032A9ECCDB716CB /* Pods-CombineGestures_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9034328C5CDA707A7DC6219CFCE81514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98039263D0882AC875A1B153C29A0180 /* NSObject+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18B440663C554954144CCEA2385E18 /* NSObject+Combine.swift */; };
+		B3C9C2FA1BE41523D69AC0AB5D6BC0FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B553EB8D99D139E55C203C315960B03A /* CombineGestures-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3234221A51795C9BB033EB9AA1A0D80A /* CombineGestures-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C815965C3DA604902FD8E276AF7BC495 /* Pods-CombineGestures_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98D6B3C7DAD2A1896260755611E980E /* Pods-CombineGestures_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C904E5B2268D37F45D73D434516C5911 /* CombineNSObject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBADD0BBCBFB25D8A08545896009DAA0 /* CombineNSObject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE4F86C0FC5E17FD6A60BCABA16487A /* CombineGestures-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A279934D83BA65BFFA4E17E57A30D1D /* CombineGestures-dummy.m */; };
+		FD4D25569AD6DE9BDCB6EC021DC6F6D4 /* CombineNSObject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F828E19C43FB705B534515D0E1E74A40 /* CombineNSObject-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788D311662B54727BBFF7B814F025C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746DCAE9FB6F6092326EDD8EA2BD516D;
+			remoteInfo = CombineNSObject;
+		};
+		ABF553633D7CBD0AD48325A1A493B9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614CE60CB8B1097E62F85061E0E3E2AE;
+			remoteInfo = CombineGestures;
+		};
+		F355C6C8793031F5E7FA6759AFB468B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815E2064CDA43D6B633522ACA9E8CD80;
+			remoteInfo = "Pods-CombineGestures_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02630EDCE1C910547BEFEA08D407A6EE /* CombineGestures-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineGestures-prefix.pch"; sourceTree = "<group>"; };
+		057F5D2907D2E5EEC4E439D8FFB37BCE /* Gestures+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gestures+Combine.swift"; path = "CombineGestures/Classes/Gestures+Combine.swift"; sourceTree = "<group>"; };
+		071A8153C8822F9ACDFE526F96197873 /* Pods-CombineGestures_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineGestures_Example-Info.plist"; sourceTree = "<group>"; };
+		076145A603A38DED7246068950135532 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		19EE25EB11FE361A4B9C11050C71FFF1 /* Pods-CombineGestures_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineGestures_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A279934D83BA65BFFA4E17E57A30D1D /* CombineGestures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineGestures-dummy.m"; sourceTree = "<group>"; };
+		1BEA1AD31DC07A9822441BF34C86E0E2 /* Pods-CombineGestures_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineGestures_Example.modulemap"; sourceTree = "<group>"; };
+		2873676F846D7C7870E5FD2BCF09E5F9 /* Pods-CombineGestures_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineGestures_Tests-Info.plist"; sourceTree = "<group>"; };
+		3234221A51795C9BB033EB9AA1A0D80A /* CombineGestures-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineGestures-umbrella.h"; sourceTree = "<group>"; };
+		3A6427740A010ADA455BF3A48B49BEF1 /* Pods_CombineGestures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineGestures_Tests.framework; path = "Pods-CombineGestures_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4986C4584EA9BA8316AE76C63A3CFF60 /* Pods-CombineGestures_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineGestures_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4CA11D9A1B8B53A34AC4DD0B13364CF0 /* CombineGestures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CombineGestures.framework; path = CombineGestures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5115FCF9B74AFA4DA547711174649E63 /* CombineNSObject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineNSObject-prefix.pch"; sourceTree = "<group>"; };
+		5F87570484A1413408D4FBE7FFC84657 /* CombineGestures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineGestures.modulemap; sourceTree = "<group>"; };
+		69BC20EA52677E571A6108BC2B5B6C43 /* CombineGestures-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CombineGestures-Info.plist"; sourceTree = "<group>"; };
+		7072324C691927F13BF68E4B575A1549 /* CombineGestures.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CombineGestures.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79E1DD70F2BBDDABB524E7A214786BB2 /* Pods-CombineGestures_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineGestures_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DCD2EB69C5FBDB333C2BA667CCA79E2 /* CombineNSObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineNSObject.debug.xcconfig; sourceTree = "<group>"; };
+		7DEDB4C457E286C1AAAA78D204ADD90F /* CombineNSObject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CombineNSObject-Info.plist"; sourceTree = "<group>"; };
+		7E18B440663C554954144CCEA2385E18 /* NSObject+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Combine.swift"; path = "CombineNSObject/Classes/NSObject+Combine.swift"; sourceTree = "<group>"; };
+		887876CD8055AA4C981B424DCBD799EE /* Pods-CombineGestures_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineGestures_Example-dummy.m"; sourceTree = "<group>"; };
+		8E950EB154EA35E12C17B969FFCBDCB5 /* Pods-CombineGestures_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CombineGestures_Example-frameworks.sh"; sourceTree = "<group>"; };
+		96C8A29ED11F233FD5DF5D6867E6CEE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		98DF2EBE6E52F1550332EFCAD6D79B7D /* Pods-CombineGestures_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineGestures_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D89F6D4721E19FD19C24E03627DBFF3 /* CombineNSObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CombineNSObject.framework; path = CombineNSObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD42AE0CC9D7C62FD032A9ECCDB716CB /* Pods-CombineGestures_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineGestures_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AFFE9C9E24CB4F34D68787DC5A714F06 /* Pods-CombineGestures_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineGestures_Tests.modulemap"; sourceTree = "<group>"; };
+		B01F97B74188B616F37F1A011EE4CEBB /* Pods_CombineGestures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineGestures_Example.framework; path = "Pods-CombineGestures_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B195C7B2A90ABFA092632F0C0429D5DC /* Pods-CombineGestures_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineGestures_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDDA829C16337AFD58F3015DDFA956A3 /* Pods-CombineGestures_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineGestures_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8F5A71DBE3D8855BFC1E0F81C9298A8 /* Pods-CombineGestures_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineGestures_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD21CB1AABD6367899FB37C8DCDA05A0 /* Pods-CombineGestures_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineGestures_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D98D6B3C7DAD2A1896260755611E980E /* Pods-CombineGestures_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineGestures_Example-umbrella.h"; sourceTree = "<group>"; };
+		DB18BA0874D85FC71213C2E9382B021B /* CombineNSObject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineNSObject.modulemap; sourceTree = "<group>"; };
+		DBADD0BBCBFB25D8A08545896009DAA0 /* CombineNSObject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineNSObject-umbrella.h"; sourceTree = "<group>"; };
+		DDF7FE478377C4B70C5AF123B3F0D434 /* CombineGestures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineGestures.debug.xcconfig; sourceTree = "<group>"; };
+		E83F9E717C36DF39811009CFE47122FE /* CombineNSObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineNSObject.release.xcconfig; sourceTree = "<group>"; };
+		F37012C5EBC8BA50E059368262A5DEDD /* CombineGestures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineGestures.release.xcconfig; sourceTree = "<group>"; };
+		F828E19C43FB705B534515D0E1E74A40 /* CombineNSObject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineNSObject-dummy.m"; sourceTree = "<group>"; };
+		F939F1C1BEF21D1538714E4BEC4AD7D5 /* Pods-CombineGestures_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineGestures_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B5A032BCA0F855AF46882A39DF7399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6A36AF5315AF19B617BEB06EFDB64F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B356883B445493534FA7259C14D4AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9034328C5CDA707A7DC6219CFCE81514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D237ADAA27140AB7AC4425733E06B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F23971F7B3837D2369DE117874368CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F10570C4B8C026E60720B99208E4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C9C2FA1BE41523D69AC0AB5D6BC0FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B99830CA9EF7B1F5729F630CB03EEEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7072324C691927F13BF68E4B575A1549 /* CombineGestures.podspec */,
+				076145A603A38DED7246068950135532 /* LICENSE */,
+				96C8A29ED11F233FD5DF5D6867E6CEE1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		17C1163D4F27D5ECB25352A002D9A09B /* Pods-CombineGestures_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA1AD31DC07A9822441BF34C86E0E2 /* Pods-CombineGestures_Example.modulemap */,
+				C8F5A71DBE3D8855BFC1E0F81C9298A8 /* Pods-CombineGestures_Example-acknowledgements.markdown */,
+				B195C7B2A90ABFA092632F0C0429D5DC /* Pods-CombineGestures_Example-acknowledgements.plist */,
+				887876CD8055AA4C981B424DCBD799EE /* Pods-CombineGestures_Example-dummy.m */,
+				8E950EB154EA35E12C17B969FFCBDCB5 /* Pods-CombineGestures_Example-frameworks.sh */,
+				071A8153C8822F9ACDFE526F96197873 /* Pods-CombineGestures_Example-Info.plist */,
+				D98D6B3C7DAD2A1896260755611E980E /* Pods-CombineGestures_Example-umbrella.h */,
+				BDDA829C16337AFD58F3015DDFA956A3 /* Pods-CombineGestures_Example.debug.xcconfig */,
+				CD21CB1AABD6367899FB37C8DCDA05A0 /* Pods-CombineGestures_Example.release.xcconfig */,
+			);
+			name = "Pods-CombineGestures_Example";
+			path = "Target Support Files/Pods-CombineGestures_Example";
+			sourceTree = "<group>";
+		};
+		1AB05319D8825DF2DF5B50366FAC7574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA11D9A1B8B53A34AC4DD0B13364CF0 /* CombineGestures.framework */,
+				9D89F6D4721E19FD19C24E03627DBFF3 /* CombineNSObject.framework */,
+				B01F97B74188B616F37F1A011EE4CEBB /* Pods_CombineGestures_Example.framework */,
+				3A6427740A010ADA455BF3A48B49BEF1 /* Pods_CombineGestures_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BF5F964C24AF282FEBEB209021B0B2 /* Pods-CombineGestures_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE9C9E24CB4F34D68787DC5A714F06 /* Pods-CombineGestures_Tests.modulemap */,
+				79E1DD70F2BBDDABB524E7A214786BB2 /* Pods-CombineGestures_Tests-acknowledgements.markdown */,
+				19EE25EB11FE361A4B9C11050C71FFF1 /* Pods-CombineGestures_Tests-acknowledgements.plist */,
+				F939F1C1BEF21D1538714E4BEC4AD7D5 /* Pods-CombineGestures_Tests-dummy.m */,
+				2873676F846D7C7870E5FD2BCF09E5F9 /* Pods-CombineGestures_Tests-Info.plist */,
+				AD42AE0CC9D7C62FD032A9ECCDB716CB /* Pods-CombineGestures_Tests-umbrella.h */,
+				98DF2EBE6E52F1550332EFCAD6D79B7D /* Pods-CombineGestures_Tests.debug.xcconfig */,
+				4986C4584EA9BA8316AE76C63A3CFF60 /* Pods-CombineGestures_Tests.release.xcconfig */,
+			);
+			name = "Pods-CombineGestures_Tests";
+			path = "Target Support Files/Pods-CombineGestures_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66A12D72B3E98FB0E3FB4B5D956E5BB6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A76022FD6C82E881F102E352A2C100F6 /* CombineGestures */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		66BD45B306EA3081AA951BF6CB778542 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB18BA0874D85FC71213C2E9382B021B /* CombineNSObject.modulemap */,
+				F828E19C43FB705B534515D0E1E74A40 /* CombineNSObject-dummy.m */,
+				7DEDB4C457E286C1AAAA78D204ADD90F /* CombineNSObject-Info.plist */,
+				5115FCF9B74AFA4DA547711174649E63 /* CombineNSObject-prefix.pch */,
+				DBADD0BBCBFB25D8A08545896009DAA0 /* CombineNSObject-umbrella.h */,
+				7DCD2EB69C5FBDB333C2BA667CCA79E2 /* CombineNSObject.debug.xcconfig */,
+				E83F9E717C36DF39811009CFE47122FE /* CombineNSObject.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CombineNSObject";
+			sourceTree = "<group>";
+		};
+		8C7C6881D22ED0F626AE766F7D7BD590 /* CombineNSObject */ = {
+			isa = PBXGroup;
+			children = (
+				7E18B440663C554954144CCEA2385E18 /* NSObject+Combine.swift */,
+				66BD45B306EA3081AA951BF6CB778542 /* Support Files */,
+			);
+			name = CombineNSObject;
+			path = CombineNSObject;
+			sourceTree = "<group>";
+		};
+		9511175016B80B658B646E0BA1E1D404 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C1163D4F27D5ECB25352A002D9A09B /* Pods-CombineGestures_Example */,
+				51BF5F964C24AF282FEBEB209021B0B2 /* Pods-CombineGestures_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9579DDB6E8ADAAF19B5D0E8F67BAB91F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C6881D22ED0F626AE766F7D7BD590 /* CombineNSObject */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A76022FD6C82E881F102E352A2C100F6 /* CombineGestures */ = {
+			isa = PBXGroup;
+			children = (
+				057F5D2907D2E5EEC4E439D8FFB37BCE /* Gestures+Combine.swift */,
+				0B99830CA9EF7B1F5729F630CB03EEEC /* Pod */,
+				AA837CE69E92C056A688926550F86654 /* Support Files */,
+			);
+			name = CombineGestures;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA837CE69E92C056A688926550F86654 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F87570484A1413408D4FBE7FFC84657 /* CombineGestures.modulemap */,
+				1A279934D83BA65BFFA4E17E57A30D1D /* CombineGestures-dummy.m */,
+				69BC20EA52677E571A6108BC2B5B6C43 /* CombineGestures-Info.plist */,
+				02630EDCE1C910547BEFEA08D407A6EE /* CombineGestures-prefix.pch */,
+				3234221A51795C9BB033EB9AA1A0D80A /* CombineGestures-umbrella.h */,
+				DDF7FE478377C4B70C5AF123B3F0D434 /* CombineGestures.debug.xcconfig */,
+				F37012C5EBC8BA50E059368262A5DEDD /* CombineGestures.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CombineGestures";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				66A12D72B3E98FB0E3FB4B5D956E5BB6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9579DDB6E8ADAAF19B5D0E8F67BAB91F /* Pods */,
+				1AB05319D8825DF2DF5B50366FAC7574 /* Products */,
+				9511175016B80B658B646E0BA1E1D404 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		457ED96B6F457B435A859D6A894893D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B553EB8D99D139E55C203C315960B03A /* CombineGestures-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47336D6E4ABAA9940602252C30B9CE15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C815965C3DA604902FD8E276AF7BC495 /* Pods-CombineGestures_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708BF258A641C8EF4DD1395F7A726C0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CCF98BDA7515B43390F5426F72ABA5 /* Pods-CombineGestures_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7288026FF6618B24577825DA907F98EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904E5B2268D37F45D73D434516C5911 /* CombineNSObject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		614CE60CB8B1097E62F85061E0E3E2AE /* CombineGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321A23C36DAD3B1F316C89961F83A6E4 /* Build configuration list for PBXNativeTarget "CombineGestures" */;
+			buildPhases = (
+				457ED96B6F457B435A859D6A894893D5 /* Headers */,
+				D010F58463D8625BB9A231377BF9297B /* Sources */,
+				1B356883B445493534FA7259C14D4AFD /* Frameworks */,
+				9B1372D02974BC4A58C1E2B2F5A316EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineGestures;
+			productName = CombineGestures;
+			productReference = 4CA11D9A1B8B53A34AC4DD0B13364CF0 /* CombineGestures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		746DCAE9FB6F6092326EDD8EA2BD516D /* CombineNSObject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2379A7D36CDD044DDE00D148A4F20D35 /* Build configuration list for PBXNativeTarget "CombineNSObject" */;
+			buildPhases = (
+				7288026FF6618B24577825DA907F98EE /* Headers */,
+				B41CD6FD051A426B583D43A0D0CDBC4A /* Sources */,
+				1D237ADAA27140AB7AC4425733E06B94 /* Frameworks */,
+				C413E87B60363957AED0E92386B82D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineNSObject;
+			productName = CombineNSObject;
+			productReference = 9D89F6D4721E19FD19C24E03627DBFF3 /* CombineNSObject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E77106ABB65BA7E787080574910F087 /* Pods-CombineGestures_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB960554849A3F6C2AFB63A6738ED8A /* Build configuration list for PBXNativeTarget "Pods-CombineGestures_Tests" */;
+			buildPhases = (
+				708BF258A641C8EF4DD1395F7A726C0C /* Headers */,
+				B7C5D2FD374F592806504F5A7F2E5462 /* Sources */,
+				16B5A032BCA0F855AF46882A39DF7399 /* Frameworks */,
+				18304D1F77095DD206956A503C147880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71319F2F0F88FE3F74CFFF3D85370109 /* PBXTargetDependency */,
+			);
+			name = "Pods-CombineGestures_Tests";
+			productName = "Pods-CombineGestures_Tests";
+			productReference = 3A6427740A010ADA455BF3A48B49BEF1 /* Pods_CombineGestures_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		815E2064CDA43D6B633522ACA9E8CD80 /* Pods-CombineGestures_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95885BB601E577C1D36D9A5B756B5D84 /* Build configuration list for PBXNativeTarget "Pods-CombineGestures_Example" */;
+			buildPhases = (
+				47336D6E4ABAA9940602252C30B9CE15 /* Headers */,
+				7ADC59AF8E2105AF8070B5B8A1DE07C9 /* Sources */,
+				D9F10570C4B8C026E60720B99208E4FB /* Frameworks */,
+				D3127050A27AF2956C18D98057A9BE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43DA022A62456816211F5C179FE37F3 /* PBXTargetDependency */,
+				48D78272C606C57AE1F252176A096F47 /* PBXTargetDependency */,
+			);
+			name = "Pods-CombineGestures_Example";
+			productName = "Pods-CombineGestures_Example";
+			productReference = B01F97B74188B616F37F1A011EE4CEBB /* Pods_CombineGestures_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1AB05319D8825DF2DF5B50366FAC7574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614CE60CB8B1097E62F85061E0E3E2AE /* CombineGestures */,
+				746DCAE9FB6F6092326EDD8EA2BD516D /* CombineNSObject */,
+				815E2064CDA43D6B633522ACA9E8CD80 /* Pods-CombineGestures_Example */,
+				7E77106ABB65BA7E787080574910F087 /* Pods-CombineGestures_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18304D1F77095DD206956A503C147880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1372D02974BC4A58C1E2B2F5A316EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C413E87B60363957AED0E92386B82D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3127050A27AF2956C18D98057A9BE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADC59AF8E2105AF8070B5B8A1DE07C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04372A4149A5AA6C3F80F9D3B783D347 /* Pods-CombineGestures_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41CD6FD051A426B583D43A0D0CDBC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4D25569AD6DE9BDCB6EC021DC6F6D4 /* CombineNSObject-dummy.m in Sources */,
+				98039263D0882AC875A1B153C29A0180 /* NSObject+Combine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C5D2FD374F592806504F5A7F2E5462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C6038B45FCFCC6539DF31D9FFDF285 /* Pods-CombineGestures_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010F58463D8625BB9A231377BF9297B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE4F86C0FC5E17FD6A60BCABA16487A /* CombineGestures-dummy.m in Sources */,
+				076733ACF66B1FB972AFF622D05F449C /* Gestures+Combine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D78272C606C57AE1F252176A096F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CombineNSObject;
+			target = 746DCAE9FB6F6092326EDD8EA2BD516D /* CombineNSObject */;
+			targetProxy = 788D311662B54727BBFF7B814F025C9E /* PBXContainerItemProxy */;
+		};
+		71319F2F0F88FE3F74CFFF3D85370109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CombineGestures_Example";
+			target = 815E2064CDA43D6B633522ACA9E8CD80 /* Pods-CombineGestures_Example */;
+			targetProxy = F355C6C8793031F5E7FA6759AFB468B4 /* PBXContainerItemProxy */;
+		};
+		B43DA022A62456816211F5C179FE37F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CombineGestures;
+			target = 614CE60CB8B1097E62F85061E0E3E2AE /* CombineGestures */;
+			targetProxy = ABF553633D7CBD0AD48325A1A493B9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23C1B250F8F6E023259C98E4A4EF1F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDA829C16337AFD58F3015DDFA956A3 /* Pods-CombineGestures_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineGestures_Example/Pods-CombineGestures_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineGestures_Example/Pods-CombineGestures_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF14C1FD5A6E23123AA1F4E9E1671136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4986C4584EA9BA8316AE76C63A3CFF60 /* Pods-CombineGestures_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineGestures_Tests/Pods-CombineGestures_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineGestures_Tests/Pods-CombineGestures_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD41C9CEB00407AAEAC46D2DFE93CFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF7FE478377C4B70C5AF123B3F0D434 /* CombineGestures.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineGestures/CombineGestures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CombineGestures/CombineGestures-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CombineGestures/CombineGestures.modulemap";
+				PRODUCT_MODULE_NAME = CombineGestures;
+				PRODUCT_NAME = CombineGestures;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD6459548630AB6C3C223E5D2265C36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD21CB1AABD6367899FB37C8DCDA05A0 /* Pods-CombineGestures_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineGestures_Example/Pods-CombineGestures_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineGestures_Example/Pods-CombineGestures_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C59EAC71CDC42B706DCE74F71EE83E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37012C5EBC8BA50E059368262A5DEDD /* CombineGestures.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineGestures/CombineGestures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CombineGestures/CombineGestures-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CombineGestures/CombineGestures.modulemap";
+				PRODUCT_MODULE_NAME = CombineGestures;
+				PRODUCT_NAME = CombineGestures;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC2CEAE8D9488B7A9DA3027736546D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCD2EB69C5FBDB333C2BA667CCA79E2 /* CombineNSObject.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineNSObject/CombineNSObject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CombineNSObject/CombineNSObject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CombineNSObject/CombineNSObject.modulemap";
+				PRODUCT_MODULE_NAME = CombineNSObject;
+				PRODUCT_NAME = CombineNSObject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF45A77D329DF0B88931622B2728425A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83F9E717C36DF39811009CFE47122FE /* CombineNSObject.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineNSObject/CombineNSObject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CombineNSObject/CombineNSObject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CombineNSObject/CombineNSObject.modulemap";
+				PRODUCT_MODULE_NAME = CombineNSObject;
+				PRODUCT_NAME = CombineNSObject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E248341D3E203D6D81F72CF5E77D71D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DF2EBE6E52F1550332EFCAD6D79B7D /* Pods-CombineGestures_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineGestures_Tests/Pods-CombineGestures_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineGestures_Tests/Pods-CombineGestures_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2379A7D36CDD044DDE00D148A4F20D35 /* Build configuration list for PBXNativeTarget "CombineNSObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2CEAE8D9488B7A9DA3027736546D55 /* Debug */,
+				DF45A77D329DF0B88931622B2728425A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321A23C36DAD3B1F316C89961F83A6E4 /* Build configuration list for PBXNativeTarget "CombineGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41C9CEB00407AAEAC46D2DFE93CFF8 /* Debug */,
+				C59EAC71CDC42B706DCE74F71EE83E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB960554849A3F6C2AFB63A6738ED8A /* Build configuration list for PBXNativeTarget "Pods-CombineGestures_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E248341D3E203D6D81F72CF5E77D71D4 /* Debug */,
+				AF14C1FD5A6E23123AA1F4E9E1671136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95885BB601E577C1D36D9A5B756B5D84 /* Build configuration list for PBXNativeTarget "Pods-CombineGestures_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C1B250F8F6E023259C98E4A4EF1F77 /* Debug */,
+				BD6459548630AB6C3C223E5D2265C36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

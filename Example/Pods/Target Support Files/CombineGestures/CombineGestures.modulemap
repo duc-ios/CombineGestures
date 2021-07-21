@@ -1,0 +1,6 @@
+framework module CombineGestures {
+  umbrella header "CombineGestures-umbrella.h"
+
+  export *
+  module * { export * }
+}

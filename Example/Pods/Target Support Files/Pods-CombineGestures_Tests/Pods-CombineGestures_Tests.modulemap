@@ -1,0 +1,6 @@
+framework module Pods_CombineGestures_Tests {
+  umbrella header "Pods-CombineGestures_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

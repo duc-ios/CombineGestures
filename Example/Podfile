@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'CombineGestures_Example' do
+  pod 'CombineGestures', :path => '../'
+  pod 'CombineNSObject', :git => 'https://github.com/duc-ios/CombineNSObject.git'
+  
+  target 'CombineGestures_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
